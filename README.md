@@ -1,8 +1,23 @@
+# my blog web by next.js
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## 版本
+
+| 技术栈 | 版本 |
+| --- | --- |
+| Nodejs | 22.17.1 |
+| Next.js | 14.2.30 |
 
 ## Getting Started
 
-First, run the development server:
+if beginning a new project, you can use the following command to create a new Next.js app:
+
+```bash
+npx create-next-app@14.2.30
+```
+
+run the development server:
 
 ```bash
 npm run dev
