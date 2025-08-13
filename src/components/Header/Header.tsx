@@ -1,14 +1,13 @@
 import siteMetadata from "@/data/siteMetadata";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "@/static/images/logo.png";
 import headerNavLinks from "@/data/headerNavLinks";
 
 /*
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-11 16:35:48
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-13 13:43:46
+ * @LastEditTime: 2025-08-13 17:48:44
  * @Description: to be added
  */
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
                     <div className="flex items-center justify-between gap-3 ">
                         <Image
                             className="rounded-md"
-                            src={Logo}
+                            src="/static/images/logo.png"
                             alt="logo"
                             width={36}
                             height={36}
