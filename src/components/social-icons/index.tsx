@@ -2,17 +2,17 @@
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-13 10:48:25
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-13 14:45:57
+ * @LastEditTime: 2025-08-14 10:23:39
  * @Description: to be added
  */
-import Mail from './mail.svg'
-import Github from './github.svg'
-import Facebook from './facebook.svg'
-import Youtube from './youtube.svg'
-import Linkedin from './linkedin.svg'
-import Twitter from './twitter.svg'
-import Instagram from './instagram.svg'
-import Rss from './rss.svg'
+import Mail from './mail.svg';
+import Github from './github.svg';
+import Facebook from './facebook.svg';
+import Youtube from './youtube.svg';
+import Linkedin from './linkedin.svg';
+import Twitter from './twitter.svg';
+import Instagram from './instagram.svg';
+import Rss from './rss.svg';
 
 // Icons taken from: https://simpleicons.org/
 
@@ -25,7 +25,7 @@ const components = {
   twitter: Twitter,
   instagram: Instagram,
   rss: Rss,
-}
+};
 
 // 定义类型别名
 type SocialIconKind = keyof typeof components;
@@ -57,6 +57,6 @@ const SocialIcon = ({
       />
     </a>
   )
-}
+};
 
 export default SocialIcon;

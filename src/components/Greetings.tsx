@@ -2,18 +2,18 @@
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-14 09:11:22
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-14 10:03:43
+ * @LastEditTime: 2025-08-14 10:39:58
  * @Description: to be added
  */
 'use client';
-import React from 'react'
-import Typed from 'typed.js'
-import Emoji from '@/components/twemoji'
-import Link from 'next/link'
+import React from 'react';
+import Typed from 'typed.js';
+import Emoji from '@/components/twemoji';
+import Link from 'next/link';
 
 const Greetings = () => {
-  const el = React.useRef(null)
-  const typed = React.useRef<Typed | null>(null)
+  const el = React.useRef(null);
+  const typed = React.useRef<Typed | null>(null);
 
   React.useEffect(() => {
     const options = {
@@ -37,7 +37,7 @@ const Greetings = () => {
     return () => {
       typed.current?.destroy()
     }
-  }, [])
+  }, []);
 
   return (
     <div className="lg:mb-10 lg:mt-10">
@@ -67,7 +67,7 @@ const Greetings = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Greetings;

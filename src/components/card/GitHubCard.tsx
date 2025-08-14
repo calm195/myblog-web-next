@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const GitHubCard = ({ repo }: { repo: string }) => {
-  const img = 'https://opengraph.githubassets.com/1/calm195' + repo
-  const link = siteMetadata.github + repo
+  const img = 'https://opengraph.githubassets.com/1/calm195' + repo;
+  const link = siteMetadata.github + repo;
   return (
     <Link href={link}>
       <Image
@@ -16,7 +16,7 @@ const GitHubCard = ({ repo }: { repo: string }) => {
         quality={100}
       />
     </Link>
-  )
+  );
 };
 
 export default GitHubCard;

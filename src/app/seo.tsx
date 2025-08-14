@@ -5,8 +5,8 @@
  * @LastEditTime: 2025-08-14 09:51:24
  * @Description: to be added
  */
-import { Metadata } from 'next'
-import siteMetadata from '@/data/siteMetadata'
+import { Metadata } from 'next';
+import siteMetadata from '@/data/siteMetadata';
 
 interface PageSEOProps {
   title: string
@@ -39,5 +39,5 @@ export function genPageMetadata({
       images: image ? [image] : [siteMetadata.socialBanner],
     },
     ...rest,
-  }
-}
+  };
+};
