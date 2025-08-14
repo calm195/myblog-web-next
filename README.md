@@ -11,6 +11,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 | React | 18.2.0 |
 | React-DOM | 18.2.0 |
 | tailwindcss | 3.4.1 |
+| typed.js | 2.1.0 |
 
 ## 快速开始
 
@@ -23,11 +24,13 @@ npm run dev
 
 - [ ] svg处理 - footer图标只能设为8，其他样式异常
 - [ ] 项目未使用依赖清除办法
-- [ ] 规范个人数据格式
+- [ ] 规范个人数据格式、常用常量储存位置
 - [ ] 主题切换
 - [ ] 文章页面等
+- [ ] typed.js 转 typed.ts
 
 ## 已实现
 
 - header
 - footer
+- about
