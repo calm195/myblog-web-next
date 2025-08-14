@@ -5,10 +5,10 @@
  * @LastEditTime: 2025-08-14 10:22:48
  * @Description: to be added
  */
-import Dog from './dog.svg';
-import ChinaFlag from './china-flag.svg';
-import Congrats from './congrats.svg';
-import PartyingFace from './partying-face.svg';
+import Dog from '@/static/twemoji/dog.svg';
+import ChinaFlag from '@/static/twemoji/china-flag.svg';
+import Congrats from '@/static/twemoji/congrats.svg';
+import PartyingFace from '@/static/twemoji/partying-face.svg';
 
 const components = {
   dog: Dog,

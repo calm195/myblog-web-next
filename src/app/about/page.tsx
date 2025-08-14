@@ -2,12 +2,12 @@
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-14 09:24:44
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-14 10:34:40
+ * @LastEditTime: 2025-08-14 10:54:44
  * @Description: to be added
  */
 import Link from 'next/link';
 import GitHubCard from '@/components/card/GitHubCard';
-import Icon from '@/components/icons';
+import Icon from '@/components/icons/common-icons';
 
 export default function About() {
   return (
@@ -55,13 +55,13 @@ export default function About() {
             It&apos;s hosted on <a href="https://www.aliyun.com/">aliyun</a> and built with{' '}
             <a href="https://nextjs.org">
               <i className="inline-block">
-                <Icon kind="nextjs" size={6} />
+                <Icon kind="nextjs" size={8} />
               </i>
             </a>{' '}
             and{' '}
             <a href="https://tailwindcss.com">
               <i className="inline-block">
-                <Icon kind="tailwindcss" size={6} />
+                <Icon kind="tailwindcss" size={8} />
               </i>
             </a>
             <br />I started it with 

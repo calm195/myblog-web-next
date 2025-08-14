@@ -8,7 +8,7 @@
 'use client';
 import React from 'react';
 import Typed from 'typed.js';
-import Emoji from '@/components/twemoji';
+import Emoji from '@/components/icons/twemoji';
 import Link from 'next/link';
 
 const Greetings = () => {

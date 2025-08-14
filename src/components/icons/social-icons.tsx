@@ -2,17 +2,17 @@
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-13 10:48:25
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-14 10:23:39
+ * @LastEditTime: 2025-08-14 10:51:27
  * @Description: to be added
  */
-import Mail from './mail.svg';
-import Github from './github.svg';
-import Facebook from './facebook.svg';
-import Youtube from './youtube.svg';
-import Linkedin from './linkedin.svg';
-import Twitter from './twitter.svg';
-import Instagram from './instagram.svg';
-import Rss from './rss.svg';
+import Mail from '@/static/social-icons/mail.svg';
+import Github from '@/static/social-icons/github.svg';
+import Facebook from '@/static/social-icons/facebook.svg';
+import Youtube from '@/static/social-icons/youtube.svg';
+import Linkedin from '@/static/social-icons/linkedin.svg';
+import Twitter from '@/static/social-icons/twitter.svg';
+import Instagram from '@/static/social-icons/instagram.svg';
+import Rss from '@/static/social-icons/rss.svg';
 
 // Icons taken from: https://simpleicons.org/
 

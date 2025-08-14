@@ -1,4 +1,4 @@
-import SocialIcon from "@/components/social-icons";
+import SocialIcon from "@/components/icons/social-icons";
 import Link from "next/link";
 import siteMetadata from "@/data/siteMetadata";
 

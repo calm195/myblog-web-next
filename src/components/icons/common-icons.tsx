@@ -1,13 +1,13 @@
-import CPU from './cpu.svg';
-import Django from './django.svg';
-import Java from './java.svg';
-import Mysql from './mysql.svg';
-import NextJS from './nextjs.svg';
-import Nginx from './nginx.svg';
-import Pets from './pets.svg';
-import ReactIcon from './react.svg';
-import Tailwindcss from './tailwindcss.svg';
-import Typescript from './typescript.svg';
+import CPU from '@/static/icons/CPU.svg';
+import Django from '@/static/icons/django.svg';
+import Java from '@/static/icons/java.svg';
+import Mysql from '@/static/icons/mysql.svg';
+import NextJS from '@/static/icons/nextjs.svg';
+import Nginx from '@/static/icons/nginx.svg';
+import Pets from '@/static/icons/pets.svg';
+import ReactIcon from '@/static/icons/react.svg';
+import Tailwindcss from '@/static/icons/tailwindcss.svg';
+import Typescript from '@/static/icons/typescript.svg';
 
 const components = {
     cpu: CPU,
