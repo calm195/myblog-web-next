@@ -2,6 +2,8 @@ import siteMetadata from "@/data/siteMetadata";
 import Link from "next/link";
 import Image from "next/image";
 import headerNavLinks from "@/data/headerNavLinks";
+import MobileNav from "@/components/MobileNav";
+import ThemeSwitch from "@/components/ThemeSwitch";
 
 /*
  * @Author: chrissy wx2048@protonmail.com
@@ -45,11 +47,8 @@ const Header = () => {
                         </Link>
                     ))}
                 </div>
-                {/*
-                    <ThemeSwitch />
-                    <MobileNav />
-                 */
-                }
+                <ThemeSwitch />
+                <MobileNav />
             </div>
         </header>
     );
