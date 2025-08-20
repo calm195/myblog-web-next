@@ -1,12 +1,13 @@
 import SocialIcon from "@/components/icons/social-icons";
 import Link from "next/link";
 import siteMetadata from "@/data/siteMetadata";
+import ICP from "@/components/Footer/component/ICP";
 
 /*
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-08-11 15:45:24
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-13 15:33:27
+ * @LastEditTime: 2025-08-20 13:31:18
  * @Description: Footer component for the blog
  */
 const Footer = () => {
@@ -31,8 +32,14 @@ const Footer = () => {
                     <div>{` • `}</div>
                     <Link href="/">{siteMetadata.title}</Link>
                 </div>
+                <div>
+                    <ICP
+                        icpInfo={process.env.ICP_INFO}
+                        link={process.env.ICP_LINK}
+                    />
+                </div>
             </div>
-        </footer>
+       </footer>
     );
 };
 
