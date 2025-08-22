@@ -2,7 +2,7 @@
  * @Author: chrissy wx2048@protonmail.com
  * @Date: 2025-07-24 14:08:37
  * @LastEditors: chrissy wx2048@protonmail.com
- * @LastEditTime: 2025-08-13 14:16:11
+ * @LastEditTime: 2025-08-22 16:44:57
  * @Description: to be added
  */
 import type { Metadata } from "next";
@@ -25,7 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
+      <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <body className = "bg-white text-black antialiased dark:bg-dark dark:text-soto-400">
+        {/* Fixed background layer. Replace the image at public/static/images/bg.jpg or change the --site-bg-image CSS variable in src/css/tailwind.css */}
+        <div className="fixed inset-0 -z-10 site-bg" aria-hidden="true" />
         <ThemeProviders>
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between">

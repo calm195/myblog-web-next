@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "kurous's blog",
+    "short_name": "kurous",
     "icons": [
         {
             "src": "/static/favicons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#7c3aed",
+    "background_color": "#071026",
     "display": "standalone"
 }

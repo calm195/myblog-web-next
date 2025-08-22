@@ -18,6 +18,35 @@
   @apply my-5;
 }
 
+/* Site background: change --site-bg-image to point to a different image (relative to public/). */
+
+@layer utilities {
+  /* Site background: change --site-bg-image to point to a different image (relative to public/). */
+  :root {
+    /* store the full url(...) in the variable to avoid url(var(...)) parsing issues */
+  --site-bg-image: url("/static/images/bg.svg"); /* default image path in public/static/images/bg.svg */
+  --site-bg-image-dark: url("/static/images/bg-dark.svg"); /* dark mode image */
+  }
+
+  .site-bg {
+    background-image: linear-gradient(rgba(255,255,255,0.65), rgba(255,255,255,0.65)), var(--site-bg-image);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .site-bg {
+      background-image: linear-gradient(rgba(6,6,8,0.6), rgba(6,6,8,0.6)), var(--site-bg-image-dark);
+    }
+  }
+
+  /* Tailwind dark class override (body.dark .site-bg) */
+  .dark .site-bg {
+    background-image: linear-gradient(rgba(6,6,8,0.6), rgba(6,6,8,0.6)), var(--site-bg-image-dark);
+  }
+}
+
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
