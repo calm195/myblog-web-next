@@ -20,6 +20,17 @@ npm install
 npm run dev
 ```
 
+迁移到`pnpm`：
+
+```bash
+npm install -g pnpm
+brew install pnpm # 或者是
+rm -rf node_modules
+rm -rf package-lock.json
+pnpm install
+pnpm run dev
+```
+
 ## TODO
 
 - [ ] svg处理 - footer图标只能设为8，其他样式异常
