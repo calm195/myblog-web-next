@@ -38,3 +38,4 @@ next-env.d.ts
 
 # self build
 build.ps1
+deploy.sh
