@@ -9,7 +9,6 @@
 import React from 'react';
 import Typed from 'typed.js';
 import Emoji from '@/components/icons/twemoji';
-import Link from 'next/link';
 
 const Greetings = () => {
   const el = React.useRef(null);
@@ -18,13 +17,15 @@ const Greetings = () => {
   React.useEffect(() => {
     const options = {
       strings: [
-        'I was born in 2002.',
-        'I was raised in China.',
-        'I like 🏃.',
-        'I like Zelda.',
-        'I like Minecraft.',
-        'I like Splatoon.',
-        '...',
+        '我出生于2002年',
+        '我是一个纯正的广东人',
+        '我喜欢跑步🏃.',
+        '我喜欢塞尔达',
+        '我喜欢斯普拉遁',
+        '我喜欢看书',
+        '我喜欢看电影',
+        '我喜欢交朋友',
+        '等等等等',
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -42,27 +43,25 @@ const Greetings = () => {
   return (
     <div className="lg:mb-10 lg:mt-10">
       <h1 className="bg-gradient-to-r from-lime-500 to-yellow-500 bg-clip-text text-5xl font-extrabold text-transparent dark:to-blue-500">
-        Hello, Friend.
+        你好，朋友
       </h1>
       <div className="prose dark:prose-dark lg:prose-lg">
         <br />
         <p>
-          Welcome! I&apos;m <b>Wen Jingxiu</b>. <Emoji kind="partyingFace" />
+          欢迎来到这里， <b>苦若</b>的博客. <Emoji kind="partyingFace" />
         </p>
 
         <p>
-          &quot;kurous&quot; is the abbreviation I use on social media. I currently live in China{` `}
-          <Emoji kind={'chinaFlag'} /> and have just graduated from the South China University of Technology with a
-          bachelor&apos;s degree in Software Engineering.
+          这里是我工作闲暇之余做的一个纯分享的博客。<br />
+            我期待给大家分享我在工作学习中遇到的困难，以及如何解决了这样那样的困难； 给大家分享我的读书心得呀，观影感悟啊等等。<br/>
+          我是一个ENFJ，我希望我的分享能够给予大家收获与感动，这样的话我也会感到十分幸福快乐。
         </p>
 
         <div className="type-wrap">
           <span style={{ whiteSpace: 'pre' }} ref={el} />
           <br />
           <p>
-            This website is used to introduce myself, publish some regular blogs, document my travel
-            diaries, as well as record books, movies, and music I&apos;ve experienced. Feel free to{' '}
-            <Link href="/about"> get to know me better.</Link>
+            希望我会给大家带来知识和快乐
           </p>
         </div>
       </div>
